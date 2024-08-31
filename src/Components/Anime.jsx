@@ -1,21 +1,21 @@
-import { a } from '.././data';
+import { allAnimeList } from '.././data';
 
-export default function Anime() {
+export default function Anime({value}) {  
     return (
-        <div className='conatiner'>
+        <div className={`conatiner ${value ? "disabled" : ''}`} >
             <div className='line'>
-                {a.map(({ name }, index) => (
+                {allAnimeList.map(({ name,image }, index) => (
                     <div key={index} className='image-container'>
-                        <a><img src="images" alt="" /></a>
+                        <a><img src={image} alt="" /></a>
                         <div className='para-container'>
                             <p>
-                                alpha
-                                {/* {name} */}
+                                {name}
                             </p>
                         </div>
                     </div>
                 ))}
             </div>
         </div>
+        
     )
 }

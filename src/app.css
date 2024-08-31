@@ -20,7 +20,7 @@ ul{
 }
 
 
-
+/*
 @media (min-width: 1200px){
     .conatiner{
         background-color: rgb(38, 66, 125);
@@ -31,7 +31,7 @@ ul{
     }
     .line{
         width: 80%;
-        /* background-color: rgb(26, 73, 32); */
+         background-color: rgb(26, 73, 32); 
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -48,7 +48,7 @@ ul{
         text-align: center;
     }
 }
-
+*/
 
 
 
@@ -68,26 +68,37 @@ ul{
 
 @media (max-width: 400px) and (min-width:355px) {
 
+    .all{
+        width: 360px;
+        /* height: 720px; */
+    }
+
     .header{
         height: 30px;
         display: flex;
         align-items: center;
         justify-content: space-around;
         gap:280px;
-        padding-top: 15px;
+        background-color: rgb(46, 36, 36);
     }
 
     .header .list{
-        margin-top: 20px;
-        position: relative;
-        /* display: flex; */
-        z-index: 10;
-        
+        position: absolute;
+        background-color: aqua;
+        right: 2px;
+        top: 30px;
     }
 
     .header .list ul li{
-        text-align: end;
+        text-align: center;
     }
+
+
+
+
+
+
+
 
 
 
@@ -107,18 +118,19 @@ ul{
     }
 
     .image-container a{
-        height: 200px;
+        height: 220px;
         width: 160px;
     }
 
     .image-container a img{
         height: 220px;
         width: 160px;
-        background-color: rgb(136, 0, 255);
+        object-fit: contain;
+        border: 0px;
     }
 
     .image-container .para-container{
-        padding-top: 20px;
+        padding-top: 10px;
         height: 40px;
     }
 
@@ -126,6 +138,20 @@ ul{
         color: white;
         width: 150px;
         text-align: center;
+    }
+
+    .disabled {
+        /* Disable all clicks, hovers, etc. */
+        pointer-events: none; 
+
+        /* Make it look visually disabled */
+        /* opacity: 0.5;  */
+
+        /* Apply blur effect */
+        filter: blur(2px); 
+
+        overflow: hidden;  
+        height: 96vh; 
     }
 
 }

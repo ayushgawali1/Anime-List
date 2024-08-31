@@ -1,15 +1,7 @@
-import { useState } from "react"
+import { Link } from "react-router-dom"
 
-export default function Header(){
-
-    const [value,setValue] = useState(false);
-
-    function dropDown(){
-        setValue((a) => !a)
-    }
-
-    // console.log(value);
-    
+export default function Header({value,dropDown}){
+ 
 
     return(
         <div className="header">
@@ -25,22 +17,30 @@ export default function Header(){
                         onClick={dropDown}
                     ></i>
                     :
-                    <div className="list">
-                        <ul>
-                            <li onClick={dropDown}>X</li>
-                            <a href="/"><li>Home</li></a>
-                            <a href="gama"><li>Current</li></a>
-                        </ul>
-                    </div>
-
+                    <>
+                        {/* <div className="menu"> */}
+                            {/* <span><h3>Menu</h3></span> */}
+                            <i 
+                                class="fa-solid fa-x" 
+                                style={{color:'yellow'}} 
+                                onClick={dropDown}
+                            ></i>
+                        {/* </div> */}
+                        <div className="list">
+                            <ul>
+                                <Link to="/"><li>Home</li></Link>
+                                <Link to="/"><li>All</li></Link>
+                                <Link to="/Month"><li>Month</li></Link>
+                                <Link to="/saga"><li>Popular</li></Link>
+                            </ul>
+                        </div>
+                    </>
                 }
-                
-                
             </div>
-
-            {/* <dialog >
-                Done
-            </dialog> */}
         </div>
     )
 }
+
+
+
+// https://cdn.myanimelist.net/images/anime/2/29550.webp
