@@ -1,7 +1,7 @@
 export const allAnimeList = [
     {   id: 1,
         name: 'Dragon Ball',
-        image: 'https://cdn.myanimelist.net/images/anime/1575/93498.webp' 
+        // image: 'https://cdn.myanimelist.net/images/anime/1575/93498.webp' 
     },
     {   id: 2,
         name: 'Demon Slayer',
