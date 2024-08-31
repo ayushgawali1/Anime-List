@@ -1,2 +1,2 @@
-# Anime-List
+# Anime-List (Mobile Phone)
 It contain list of animes . 
