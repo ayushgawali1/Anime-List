@@ -87,6 +87,7 @@ ul{
         background-color: aqua;
         right: 2px;
         top: 30px;
+        z-index: 10;
     }
 
     .header .list ul li{
@@ -142,7 +143,7 @@ ul{
 
     .disabled {
         /* Disable all clicks, hovers, etc. */
-        pointer-events: none; 
+        /* pointer-events: none;  */
 
         /* Make it look visually disabled */
         /* opacity: 0.5;  */
@@ -152,6 +153,48 @@ ul{
 
         overflow: hidden;  
         height: 96vh; 
+    }
+
+    .disabled-line{
+        /* Disable all clicks, hovers, etc. */
+        pointer-events: none;
+    }
+
+
+
+    .month-conatainer{
+        background-color: rgb(0, 0, 0);
+        height: 96vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .month-conatainer .year{
+        /* width: 80%; */
+        /* height: 35%; */
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .month-conatainer .year a{
+        position: absolute;
+        background-color: red;
+
+    } */
+
+    .month-conatainer .year video{
+        position: absolute;
+        /* background-color: orange; */
+        width: 300px;
+        height: 169px;
+    }
+
+    .month-conatainer .year p{
+         z-index: 10; 
     }
 
 }

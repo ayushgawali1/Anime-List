@@ -1,40 +1,25 @@
-import { useState } from "react"
-import Anime from './Components/Anime';
-import Header from './Components/Header';
-import Month from "./Components/Month";
-import "./app.css"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { useState } from "react";
+import "./app.css";
+import Header from './Components/Header';
+import Anime from './Components/Anime';
+import Month from "./Components/Month";
+import Current from "./Components/Current";
 
 
 function App() {
 
     const [value,setValue] = useState(false);
 
-    function dropDown(){
-        setValue((a) => !a)
-    }
+    const header = <Header value={value} setValue={setValue} />;
 
     const route = createBrowserRouter([
-        {path:'/' ,element:<div className="all">
-            <Header
-                value={value}
-                dropDown={dropDown}
-            />
-            <Anime 
-                value={value}
-            />
-        </div>},
-        {path:'Month' , element:<div className="all">
-            <Header
-                value
-                setValue
-            />
-            <Month 
-                value={value}
-            />
-        </div>}
+        {path:'/' , element:header,errorElement:"error",children:[
+           {path:'/' , element: <Anime value={value} setValue={setValue} />},
+           {path:'/month',element:<Month setValue={setValue} />},
+           {path:'/current',element:<Current setValue={setValue} />} 
+        ]}
     ])
-
 
     return (
         <RouterProvider router={route} />
