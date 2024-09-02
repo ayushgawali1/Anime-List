@@ -19,8 +19,8 @@ export default function Anime({value,setValue}) {
                         <a><img src={image} alt="" /></a>
                         <div className='para-container'>
                             <p>
-                                {name}
-                                {/* alpha */}
+                                {/* {name} */}
+                                alpha
                             </p>
                         </div>
                     </div>

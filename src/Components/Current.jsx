@@ -20,6 +20,7 @@ export default function Anime({value,setValue}) {
                         <div className='para-container'>
                             <p>
                                 {name}
+                                {/* alpha */}
                             </p>
                         </div>
                     </div>
