@@ -40,19 +40,19 @@ import strongest_mgesian_in_demon_lord_army_is_an_human from "./assets/the stron
 export const allAnimeList = [
     {   id: 1,
         name: 'Dragon Ball',
-        // image: Dragon_Ball
+        image: Dragon_Ball
     },
     {   id: 2,
         name: 'Demon Slayer',
-        // image: Demon_Slayer
+        image: Demon_Slayer
     },
     {   id: 3,
         name: 'One Piece',
-        // image: One_Piece 
+        image: One_Piece 
     },
     {   id: 4,
         name: 'Attack on Titan',
-        // image: Attack_on_Titan
+        image: Attack_on_Titan
     },
     {   id: 5,
         name: 'Pokemon',
@@ -60,7 +60,7 @@ export const allAnimeList = [
     },
     {   id: 6,
         name: 'Bleach',
-        // image: Bleach 
+        image: Bleach 
     },
     {   id: 7,
         name: 'Naruto',
@@ -68,19 +68,19 @@ export const allAnimeList = [
     },
     {   id: 8,
         name: 'Death Note',
-        // image: Death_Note 
+        image: Death_Note 
     },
     {   id: 9,
         name: 'Hunter x Hunter',
-        // image: Hunter_x_Hunter 
+        image: Hunter_x_Hunter 
     },
     {   id: 10,
         name: 'Jujutsu Kaisen',
-        // image: Jujutsu_Kaisen 
+        image: Jujutsu_Kaisen 
     },
     {    id: 11,
         name: 'Spy x Family',
-        // image: 'https://cdn.myanimelist.net/images/anime/1529/140306.jpg' 
+        image: 'https://cdn.myanimelist.net/images/anime/1529/140306.jpg' 
     },
     {    id: 12,
         name: 'Mashle: Magic and Muscles',
