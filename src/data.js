@@ -170,7 +170,12 @@ export const currentAnimeList = [
         image: Wistoria
     },
     {
-        id: 10,
+        id:10,
+        name:"Terminator 0",
+        image: Terminator_0
+    },
+    {
+        id: 11,
         name: 'Alya Sometimes Hides Her Feelings in Russian',
         image: Alya
     },
