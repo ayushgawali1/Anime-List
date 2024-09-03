@@ -56,7 +56,7 @@ export const allAnimeList = [
     },
     {   id: 5,
         name: 'Pokemon',
-        // image: Pokemon
+        image: Pokemon
     },
     {   id: 6,
         name: 'Bleach',
@@ -64,7 +64,7 @@ export const allAnimeList = [
     },
     {   id: 7,
         name: 'Naruto',
-        // image: Naruto 
+        image: Naruto 
     },
     {   id: 8,
         name: 'Death Note',
