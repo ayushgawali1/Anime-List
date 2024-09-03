@@ -7,18 +7,19 @@ import Demon_Slayer from "./assets/Demon Slayer.jpg";
 import One_Piece from "./assets/One Piece.jpg";
 import Pokemon from "./assets/Pokemon.jpg";
 import Dragon_Ball from "./assets/Dragon Ball.jpg";
-import Oshi_No_Ko from "./assets/Oshi no Ko.jpg";
+import Oshi_No_Ko from "./assets/Oshi no Ko.png";
 import Hunter_x_Hunter from "./assets/Hunter x Hunter.jpg";
-import My_Hero_Academia from "./assets/My Hero Academia.jpg";
+import My_Hero_Academia from "./assets/My Hero Academia.png";
 import I_Parry_Everything from "./assets/I Parry Everything.jpeg";
-import The_Ossan_Newbie_Adventurer from "./assets/The Ossan Newbie Adventurer.jpg";
-import Alya from "./assets/Alya Sometimes Hides Her Feelings in Russian.jpg";
+import The_Ossan_Newbie_Adventurer from "./assets/The Ossan Newbie Adventurer.png";
+import Alya from "./assets/Alya Sometimes Hides Her Feelings in Russian.png";
 import Another from "./assets/Another.jpg";
-import Failure_Frame from "./assets/Failure Frame.jpg";
-import Nobody_rember_me_in_this_world from "./assets/Why Does Nobody Remember Me in This World.jpg";
-import Wistoria from "./assets/Wistoria_ Wand and Sword.jpg";
-import no_longer_allowed_to_live_in_another_world from "./assets/no longer allowed in another world.jpg";
-import strongest_mgesian_in_demon_lord_army_is_an_human from "./assets/the strongest magesian in demon lord ary is human.jpg";
+import Failure_Frame from "./assets/Failure Frame.png";
+import Nobody_rember_me_in_this_world from "./assets/Why Does Nobody Remember Me in This World.png";
+import Wistoria from "./assets/Wistoria_ Wand and Sword.png";
+import no_longer_allowed_to_live_in_another_world from "./assets/no longer allowed in another world.png";
+import strongest_mgesian_in_demon_lord_army_is_an_human from "./assets/the strongest magesian in demon lord ary is human.png";
+import Terminator_0 from './assets/Terminator.png'
 
 
 
