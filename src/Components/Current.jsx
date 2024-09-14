@@ -46,8 +46,8 @@ export default function Mobile({data}) {
                         <a><img src='' alt="" /></a>
                         <div className='para-container'>
                             <p>
-                                {/* {name} */}
-                                alpha   
+                                {name}
+{/*                                 alpha    */}
                             </p>
                         </div>
                     </motion.div>
