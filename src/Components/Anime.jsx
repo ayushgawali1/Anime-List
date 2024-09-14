@@ -49,7 +49,7 @@ export default function Mobile(){
             <div className={`line ${value ? "disabled-line" : ''}`} style={{backgroundColor: mode ? '#141616' : 'white'}}>
                 {animeArray ? animeArray.map(({ name,image }, index) => (
                     <motion.div initial={{scale:0,opacity:0}} animate={{scale:1,opacity:1}} exit={{scale:0,opacity:0}} key={index} className='image-container'>
-                        <a><img src='' alt="" /></a>
+                        <a><img src={image} alt="" /></a>
                         <div className='para-container'>
                             <p>
                                 {name}
