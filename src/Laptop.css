@@ -1,0 +1,141 @@
+
+@media (min-width: 1000px){
+    .header{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(22 20 20);
+        /* position: fixed; */
+    }
+
+    .header .list{
+        display: flex;
+        gap: 80px;
+    }
+
+    .header>i{
+        margin-left: 40px;
+    }
+
+    .header>span{
+        margin-right: 40px;
+    }
+
+    .header .list a{
+        color: red;
+    }
+
+    .header .list .active{
+        color: rgb(43, 0, 255);
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+    .conatiner{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .line{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 60px;
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container a{
+        height: 240px;
+        width: 185px;
+    }
+
+    .image-container a img{
+        height: 240px;
+        width: 185px;
+        object-fit: contain;
+    }
+
+    .image-container .para-container{
+        padding-top: 10px;
+        height: 40px;
+    }
+
+    .image-container .para-container p{
+        color: white;
+        width: 180px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+
+    
+
+
+
+
+
+
+    .month-conatainer{
+        background-color: rgb(0, 0, 0);
+        height: 93vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .month-conatainer .year{
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .month-conatainer .year video{
+        position: absolute;
+        width: 485px;
+        height: 270px;
+        object-fit: cover;
+    }
+
+    .month-conatainer .year p{
+        z-index: 10;
+        background: #00000082;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .popular-container{
+        height: calc(100vh - 50px);
+    }
+}
